@@ -227,6 +227,7 @@ To our knowledge, on 6 October 2026, no publication measures on the same bench: 
 - [TensorFold #167](https://github.com/ashhart/TensorFold/issues/167): TensorFold against vLLM on two Sparks, 1 to 4 streams.
 - A setup gist by aussielunix: a two-Spark cluster, 256 to 131k tokens, 1 to 6 streams.
 - [The DGX Spark handbook](https://huggingface.co/blog/exolabs/the-dgx-spark-handbook) by exolabs on Hugging Face.
+- [myllmbox/qwen38-flash-next-cluster-recipe](https://github.com/myllmbox/qwen38-flash-next-cluster-recipe): one model across both boxes with vLLM over RDMA, INT4-AutoRound weights and up to 7 draft tokens. It reports much higher numbers than the across-both recipe we measured (for example 456 tok/s on code at 8 requests at once). We did not measure it on our bench yet.
 
 ## Issues we filed
 
