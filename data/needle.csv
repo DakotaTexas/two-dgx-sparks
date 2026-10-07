@@ -1,0 +1,10 @@
+setup,context_limit,target_tokens,depth_pct,prompt_tokens,result,seconds,date
+one model across both vLLM + YaRN x4,1048576,200000,10,201367,OK,90,2026-10-05
+one model across both vLLM + YaRN x4,1048576,200000,50,201368,OK,111,2026-10-05
+one model across both vLLM + YaRN x4,1048576,200000,90,201369,OK,112,2026-10-05
+one model across both vLLM + YaRN x4,1048576,500000,10,501937,OK,266,2026-10-05
+one model across both vLLM + YaRN x4,1048576,500000,50,501936,OK,267,2026-10-05
+one model across both vLLM + YaRN x4,1048576,500000,90,501937,OK,267,2026-10-05
+one model across both vLLM + YaRN x4,1048576,800000,10,803089,OK,505,2026-10-05
+one model across both vLLM + YaRN x4,1048576,800000,50,803087,OK,515,2026-10-05
+one model across both vLLM + YaRN x4,1048576,800000,90,803087,OK,504,2026-10-05

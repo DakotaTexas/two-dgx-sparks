@@ -1,0 +1,8 @@
+setup,event,seconds,date,note
+one model across both vLLM,cold start to first answer,705,2026-10-04,
+one model across both vLLM + YaRN x4,cold start to first answer,787,2026-10-05,
+one box vLLM,automatic restart after a memory-guard stop,~720,2026-10-05,stop 07:21 EDT; answers again 07:33 EDT
+one model across both TensorFold,cold start to first answer,38,2026-10-04,
+one model across both TensorFold,warm restart (docker restart),25,2026-10-05,
+one box TensorFold NVFP4,start to first answer,90,2026-10-05,
+one box TensorFold NVFP4,start to first answer,94,2026-10-05,

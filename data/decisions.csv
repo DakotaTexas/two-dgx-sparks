@@ -1,0 +1,13 @@
+setup,engine_layout,jevbench_file,context,decisions,accuracy_pct,wilson95_low_pct,wilson95_high_pct,chance_corrected_pct,ece,latency_p50_s,latency_p95_s,date,source_note
+one box vLLM (half of setup 3),vLLM 1 box,easy,none,48,100.0,92.6,100.0,100.0,0.041,0.34,1.31,2026-10-05,latency over all 3 files
+one box vLLM (half of setup 3),vLLM 1 box,original,none,72,97.2,90.4,99.2,96.0,0.041,0.34,1.31,2026-10-05,latency over all 3 files
+one box vLLM (half of setup 3),vLLM 1 box,hard,none,111,78.4,69.8,85.0,67.4,0.041,0.34,1.31,2026-10-05,latency over all 3 files
+one box TensorFold NVFP4 (half of setup 3),TensorFold 1 box,easy,none,48,100.0,92.6,100.0,100.0,0.049,0.28,1.76,2026-10-05,latency over all 3 files
+one box TensorFold NVFP4 (half of setup 3),TensorFold 1 box,original,none,72,95.8,88.5,98.6,94.0,0.049,0.28,1.76,2026-10-05,latency over all 3 files
+one box TensorFold NVFP4 (half of setup 3),TensorFold 1 box,hard,none,111,78.4,69.8,85.0,67.4,0.049,0.28,1.76,2026-10-05,latency over all 3 files
+one model across both vLLM,vLLM 2 boxes,easy,none,48,100.0,92.6,100.0,100.0,0.042,0.27,1.07,2026-10-04,latency over all 3 files
+one model across both vLLM,vLLM 2 boxes,original,none,72,98.6,92.5,99.8,98.0,0.042,0.27,1.07,2026-10-04,latency over all 3 files
+one model across both vLLM,vLLM 2 boxes,hard,none,111,76.6,67.9,83.5,64.7,0.042,0.27,1.07,2026-10-04,latency over all 3 files
+one box vLLM (half of setup 3),vLLM 1 box,hard,~16k unrelated tokens first,111,74.8,66.0,81.9,62.0,0.048,9.34,10.35,2026-10-05,evening run
+one box TensorFold NVFP4 (half of setup 3),TensorFold 1 box,hard,~16k unrelated tokens first,111,75.7,66.9,82.7,63.4,0.089,12.89,14.52,2026-10-05,
+one model across both vLLM,vLLM 2 boxes,hard,~16k unrelated tokens first,111,76.6,67.9,83.5,64.7,0.062,6.88,8.05,2026-10-05,
